@@ -11,9 +11,21 @@ import (
 // Init initializes termbox-go and is required to render anything.
 // After initialization, the library must be finalized with `Close`.
 func Init() error {
-	if err := tb.Init(); err != nil {
-		return err
+	return InitTTY("")
+}
+
+// InitTTY initializes a specific TTY such as /dev/tty1, /dev/tty2, etc.
+func InitTTY(ttyDevicePath string) error {
+	if ttyDevicePath == "" {
+		if err := tb.Init(); err != nil {
+			return err
+		}
+	} else {
+		if err := tb.InitTTY(ttyDevicePath); err != nil {
+			return err
+		}
 	}
+
 	tb.SetInputMode(tb.InputEsc | tb.InputMouse)
 	tb.SetOutputMode(tb.Output256)
 	return nil
