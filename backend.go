@@ -5,7 +5,7 @@
 package termui
 
 import (
-	tb "github.com/nsf/termbox-go"
+	tb "github.com/utkuozdemir/termbox-go"
 )
 
 // Init initializes termbox-go and is required to render anything.

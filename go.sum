@@ -5,5 +5,5 @@ github.com/mitchellh/go-wordwrap v0.0.0-20150314170334-ad45545899c7/go.mod h1:ZX
 github.com/rivo/uniseg v0.1.0/go.mod h1:J6wj4VEh+S6ZtnVlnTBMWIodfgj8LQOQFoIToxlJtxc=
 github.com/rivo/uniseg v0.2.0 h1:S1pD9weZBuJdFmowNwbpi7BJ8TNftyUImj/0WQi72jY=
 github.com/rivo/uniseg v0.2.0/go.mod h1:J6wj4VEh+S6ZtnVlnTBMWIodfgj8LQOQFoIToxlJtxc=
-github.com/utkuozdemir/termbox-go v1.1.2-0.20230216210022-22fa834328ec h1:1++xWR+xzZcER16O8APE5jsrgCFETyCKci5sA9VPSZM=
-github.com/utkuozdemir/termbox-go v1.1.2-0.20230216210022-22fa834328ec/go.mod h1:M+ZyruvbEgtsI/oH9v3MdVLrGYGFdN2ZkHy9A921cY0=
+github.com/utkuozdemir/termbox-go v1.1.2-0.20230216212329-affb9a67c47a h1:B9vKzzONsp5pEtEObbbqpMX0K87SpFGI8JDhmFbJS0s=
+github.com/utkuozdemir/termbox-go v1.1.2-0.20230216212329-affb9a67c47a/go.mod h1:/wSGAskYUu4O1QX8Uqzgd89kDiLl10qeSaBahVBipoU=
